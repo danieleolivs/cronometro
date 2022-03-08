@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title id="title">Cronômetro</title>
+        <link rel="icon" type="imagem/png" href="./assets/icon.png" />
+
+        <!-- CSS -->
+        <link rel="stylesheet"  href="./style/index.css">
+         <link rel="stylesheet"  href="./style/responsividade.css">
+
+    </head>
+
+    <body>
+
+        <div class="container">
+
+            <div class="temporizador">
+                <h1 id="tempo">00:00:00</h1>
+            </div>
+
+            <div class="botoes">
+
+                <div id="iniciar">
+                    <button onclick="adicionar()">
+                        Iniciar
+                    </button>
+                </div>
+
+                <div id="parar">
+                    <button onclick = "parar()">
+                        Parar
+                    </button>
+                </div>
+
+                <div id="resetar">
+                    <button onclick = "resetar()">
+                        Reiniciar
+                    </button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <footer> criado por danieleolivs💜</footer>
+
+        <script src="./js/iniciar.js"></script>
+
+    </body>
+</html>

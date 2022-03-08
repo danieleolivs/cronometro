@@ -1,0 +1,20 @@
+@media(max-width:900px){
+
+    .botoes{
+        margin-top: 0rem
+        
+    }
+
+    .botoes button{
+        font-size: 1.2rem;
+        width: 10rem;
+        height: 3rem;
+        padding: 2rem;
+    }
+
+    h1{
+        font-size:8rem;
+        margin-left: 2.7rem 
+    }
+
+}
